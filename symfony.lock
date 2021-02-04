@@ -91,7 +91,11 @@
         "version": "2.2.3"
     },
     "php": {
+<<<<<<< HEAD
         "version": "7.3"
+=======
+        "version": "7.2"
+>>>>>>> master
     },
     "phpdocumentor/reflection-common": {
         "version": "2.2.0"
@@ -129,6 +133,7 @@
             "config/packages/sensio_framework_extra.yaml"
         ]
     },
+<<<<<<< HEAD
     "symfony/apache-pack": {
         "version": "1.0",
         "recipe": {
@@ -141,6 +146,8 @@
             "public/.htaccess"
         ]
     },
+=======
+>>>>>>> master
     "symfony/asset": {
         "version": "v5.1.8"
     },
@@ -466,6 +473,12 @@
             "templates/base.html.twig"
         ]
     },
+<<<<<<< HEAD
+=======
+    "symfony/twig-pack": {
+        "version": "v1.0.2"
+    },
+>>>>>>> master
     "symfony/validator": {
         "version": "4.3",
         "recipe": {

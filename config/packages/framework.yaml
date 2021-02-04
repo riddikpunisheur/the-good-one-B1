@@ -1,8 +1,11 @@
 # see https://symfony.com/doc/current/reference/configuration/framework.html
 framework:
     secret: '%env(APP_SECRET)%'
+<<<<<<< HEAD
         
 
+=======
+>>>>>>> master
     #csrf_protection: true
     #http_method_override: true
 
