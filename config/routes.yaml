@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+# Le nom de la route
+#homepage:
+    # L'URL de cette route
+    #path: /
+    # Le contronlleur et la méthode de controlleur à utiliser
+    #controller: App\Controller\MainController::homepage
+
+#contact:
+    #path: /contact
+    #controller: App\Controller\MainController::contact

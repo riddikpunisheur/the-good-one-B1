@@ -1,0 +1,12 @@
+body{
+    height: 100%;
+}
+
+.couple{
+    
+    background-image: url("../images/photo-homepage-couple.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+}
