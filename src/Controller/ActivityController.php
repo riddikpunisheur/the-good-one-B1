@@ -18,7 +18,9 @@ class ActivityController extends AbstractController
         $activity = $activityModel->getActivity();
 
         return $this->render('/activity/activity.html.twig', [
-            "activity" => $activity
+            "activity" => $activity, ["activity" => []]
         ]);
+  
     }
+    
 }
