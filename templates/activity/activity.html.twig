@@ -5,14 +5,31 @@
 
 <h1>Une rencontre de prévue ? choissez votre premiere activité</h1>
         <!--<div class="alert alert-primary" role="alert"></div>-->
+
+    <ul>
+        <div class="container"></div>
+        {% for activity in activity %}
+
+        <h4 class="card-title"><li>{{ activity.name }}</li> </h4>
+            
+            
+             <li><img src="{{ asset('images/' ~ activity.image) }}"></li>
+             
+             <a href="#" class="btn btn-primary"><li>{{ activity.description }}</li></a>
+
+
+<h1>Une rencontre de prévue ? choissez votre premiere activité</h1>
+        <!--<div class="alert alert-primary" role="alert"></div>-->
     
         <div class="container">
              <img src="{{ absolute_url (asset('../images/asterixparc.jpg')) }}">
              <img src="{{ absolute_url (asset('../images/disneyparc.jpg')) }}">
              <img src="{{ absolute_url (asset('../images/spa.jpg')) }}">
+
            <link rel="stylesheet" href="{{  asset('../css/base.css') }}">
         </div>
-       
+        </ul>
+         {% endfor %}
 
     {% block footer %}
         <div class="contact">
